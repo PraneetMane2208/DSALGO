@@ -7,5 +7,5 @@ def reverse_num(n):
         reverse_num(n//10)
     return rev_num
 
-c=reverse_num(121)
+c=reverse_num(124)
 print(c)

@@ -9,3 +9,17 @@ def count_zeros(n):
     return count
 c=count_zeros(204507000)
 print(c)
+
+def cont(n,total):
+
+    rem=n%10
+    if(rem==n):
+        return total
+    if(rem==0):
+        return cont(n//10,total+1)
+    return cont(n//10,total)
+
+c=cont(50003070,0)
+print(c)
+
+# special example to return same value to above funcn calls

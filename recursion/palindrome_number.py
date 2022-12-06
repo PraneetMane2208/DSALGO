@@ -28,3 +28,4 @@ def bool(n):
     return n==reverse_num(n)
 c=bool(121)
 print(c)
+#print(ln(3))
