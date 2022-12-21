@@ -19,6 +19,6 @@ def findNumbers(ans, arr, temp, sum, index):
 
 
 arr = [2, 3, 6, 7]
-sum = 7
+sum = 8
 ans = combinationSum(arr, sum)
 print(ans)
